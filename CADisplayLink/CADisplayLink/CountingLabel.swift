@@ -16,20 +16,18 @@ class CountingLabel: UILabel{
         text = String(startValue)
         font = UIFont.boldSystemFont(ofSize: 18)
         textAlignment = .center
-        
         displayLink = CADisplayLink(target: self, selector: #selector(handleCounting))
-        
         displayLink?.add(to: .main, forMode: .default)
     }
-    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+        
     }
-    
     @objc func handleCounting(){
         let diff = Date().timeIntervalSince(animationStart)
-        if diff > animationDuration{
+        if diff > 0.1{
             self.text = String(endValue)
+            self.displayLink?.invalidate()
         }else{
             let percentage = diff / animationDuration
             let currentValue = Double(endValue - startValue) * percentage
