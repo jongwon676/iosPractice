@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162D9D9195DEA5B20704E6D9 /* Pods_AutoLayoutSwipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490FA875047626F00AD32F0 /* Pods_AutoLayoutSwipe.framework */; };
+		AD161FC7219B11800046F2D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD161FC6219B11800046F2D1 /* ViewController.swift */; };
+		AD161FC9219BB9700046F2D1 /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD161FC8219BB9700046F2D1 /* SwipeController.swift */; };
+		AD161FCB219BBF360046F2D1 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD161FCA219BBF360046F2D1 /* PageCell.swift */; };
+		AD161FCD219BC3C70046F2D1 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD161FCC219BC3C70046F2D1 /* Page.swift */; };
+		AD161FCF219C66250046F2D1 /* SwipeController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD161FCE219C66250046F2D1 /* SwipeController+extension.swift */; };
+		AD161FD1219C66EA0046F2D1 /* SwipeController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD161FD0219C66EA0046F2D1 /* SwipeController+UICollectionView.swift */; };
 		ADF4BE12219B06460020D306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4BE11219B06460020D306 /* AppDelegate.swift */; };
-		ADF4BE14219B06460020D306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4BE13219B06460020D306 /* ViewController.swift */; };
 		ADF4BE17219B06460020D306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF4BE15219B06460020D306 /* Main.storyboard */; };
 		ADF4BE19219B06470020D306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF4BE18219B06470020D306 /* Assets.xcassets */; };
 		ADF4BE1C219B06470020D306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF4BE1A219B06470020D306 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0490FA875047626F00AD32F0 /* Pods_AutoLayoutSwipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayoutSwipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD161FC6219B11800046F2D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD161FC8219BB9700046F2D1 /* SwipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeController.swift; sourceTree = "<group>"; };
+		AD161FCA219BBF360046F2D1 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		AD161FCC219BC3C70046F2D1 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		AD161FCE219C66250046F2D1 /* SwipeController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipeController+extension.swift"; sourceTree = "<group>"; };
+		AD161FD0219C66EA0046F2D1 /* SwipeController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipeController+UICollectionView.swift"; sourceTree = "<group>"; };
 		ADF4BE0E219B06460020D306 /* AutoLayoutSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF4BE11219B06460020D306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADF4BE13219B06460020D306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADF4BE16219B06460020D306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADF4BE18219B06470020D306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF4BE1B219B06470020D306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADF4BE1D219B06470020D306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AC098BE805275F42E45B1B /* Pods-AutoLayoutSwipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutSwipe.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutSwipe/Pods-AutoLayoutSwipe.release.xcconfig"; sourceTree = "<group>"; };
+		E8E09D10F247CB58878515A6 /* Pods-AutoLayoutSwipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutSwipe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutSwipe/Pods-AutoLayoutSwipe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162D9D9195DEA5B20704E6D9 /* Pods_AutoLayoutSwipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87F28D465B363E45B1989B67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8E09D10F247CB58878515A6 /* Pods-AutoLayoutSwipe.debug.xcconfig */,
+				C9AC098BE805275F42E45B1B /* Pods-AutoLayoutSwipe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ADF4BE05219B06460020D306 = {
 			isa = PBXGroup;
 			children = (
 				ADF4BE10219B06460020D306 /* AutoLayoutSwipe */,
 				ADF4BE0F219B06460020D306 /* Products */,
+				87F28D465B363E45B1989B67 /* Pods */,
+				ED38866BE42C5D16A37635E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +81,26 @@
 			isa = PBXGroup;
 			children = (
 				ADF4BE11219B06460020D306 /* AppDelegate.swift */,
-				ADF4BE13219B06460020D306 /* ViewController.swift */,
 				ADF4BE15219B06460020D306 /* Main.storyboard */,
 				ADF4BE18219B06470020D306 /* Assets.xcassets */,
 				ADF4BE1A219B06470020D306 /* LaunchScreen.storyboard */,
 				ADF4BE1D219B06470020D306 /* Info.plist */,
+				AD161FC6219B11800046F2D1 /* ViewController.swift */,
+				AD161FCA219BBF360046F2D1 /* PageCell.swift */,
+				AD161FCC219BC3C70046F2D1 /* Page.swift */,
+				AD161FC8219BB9700046F2D1 /* SwipeController.swift */,
+				AD161FCE219C66250046F2D1 /* SwipeController+extension.swift */,
+				AD161FD0219C66EA0046F2D1 /* SwipeController+UICollectionView.swift */,
 			);
 			path = AutoLayoutSwipe;
+			sourceTree = "<group>";
+		};
+		ED38866BE42C5D16A37635E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0490FA875047626F00AD32F0 /* Pods_AutoLayoutSwipe.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADF4BE20219B06470020D306 /* Build configuration list for PBXNativeTarget "AutoLayoutSwipe" */;
 			buildPhases = (
+				A3CC045743CE497B3C5981AF /* [CP] Check Pods Manifest.lock */,
 				ADF4BE0A219B06460020D306 /* Sources */,
 				ADF4BE0B219B06460020D306 /* Frameworks */,
 				ADF4BE0C219B06460020D306 /* Resources */,
+				50D522CD890907276BDE02D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +171,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50D522CD890907276BDE02D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutSwipe/Pods-AutoLayoutSwipe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutSwipe/Pods-AutoLayoutSwipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CC045743CE497B3C5981AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoLayoutSwipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADF4BE0A219B06460020D306 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF4BE14219B06460020D306 /* ViewController.swift in Sources */,
+				AD161FC7219B11800046F2D1 /* ViewController.swift in Sources */,
 				ADF4BE12219B06460020D306 /* AppDelegate.swift in Sources */,
+				AD161FCF219C66250046F2D1 /* SwipeController+extension.swift in Sources */,
+				AD161FCB219BBF360046F2D1 /* PageCell.swift in Sources */,
+				AD161FC9219BB9700046F2D1 /* SwipeController.swift in Sources */,
+				AD161FD1219C66EA0046F2D1 /* SwipeController+UICollectionView.swift in Sources */,
+				AD161FCD219BC3C70046F2D1 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +365,11 @@
 		};
 		ADF4BE21219B06470020D306 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E09D10F247CB58878515A6 /* Pods-AutoLayoutSwipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U6L6476C2Z;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AutoLayoutSwipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +377,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adasdsadasdasd.AutoLayoutSwipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,10 +385,11 @@
 		};
 		ADF4BE22219B06470020D306 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AC098BE805275F42E45B1B /* Pods-AutoLayoutSwipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U6L6476C2Z;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AutoLayoutSwipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +397,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adasdsadasdasd.AutoLayoutSwipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
